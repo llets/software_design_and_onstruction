@@ -271,7 +271,7 @@ footer a {
   font: 16px 'Roboto', sans-serif;
 }
 
-.map{
+#map{
   background: url(../images/h1-bg.png);
   height: inherit;
   width: 60%;
@@ -293,4 +293,12 @@ footer a {
   margin-bottom: 10px;
   padding: 0;
   border: 0;
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+
+[class*="ground-pane"] {
+	filter: grayscale(1);
 }

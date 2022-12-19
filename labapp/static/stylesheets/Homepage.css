@@ -1,0 +1,140 @@
+ .u-section-1 {
+  min-height: 757px;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 936px;
+}
+
+.u-section-1 .u-map-1 {
+  height: 382px;
+  width: 831px;
+  margin: 31px 0 0 auto;
+}
+
+.u-section-1 .u-group-1 {
+  width: 321px;
+  min-height: 327px;
+  height: auto;
+  background-image: none;
+  margin: -354px auto 0 -12px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 30px 22px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.375rem;
+  margin: 0 3px 0 auto;
+}
+
+.u-section-1 .u-search-1 {
+  height: auto;
+  width: 199px;
+  min-height: 48px;
+  background-image: none;
+  margin: 30px auto 0 13px;
+}
+
+.u-section-1 .u-search-icon-1 {
+  background-image: none;
+  padding: 4px;
+}
+
+.u-section-1 .u-search-input-1 {
+  letter-spacing: 1px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 153px;
+  margin: 3px 39px 0 0;
+}
+
+.u-section-1 .u-form-group-1 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 50px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  width: 615px;
+  margin: 30px auto 60px;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-auto-columns: calc(50% - 5px);
+  grid-template-columns: repeat(2, calc(50% - 5px));
+  min-height: 60px;
+  grid-gap: 10px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 10px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    margin-left: 0;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-map-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: calc(100% - 100px);
+    grid-template-columns: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-map-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-map-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 340px;
+  }
+}
